@@ -1,5 +1,5 @@
 #!/bin/sh
-. ./common.sh
+. ./scripts/common.sh
 
 $SUDO rm /etc/ssl/certs/dotnet-devcert.pem
 $SUDO cp $CRTFILE "/usr/local/share/ca-certificates"
